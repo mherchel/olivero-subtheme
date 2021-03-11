@@ -41,6 +41,7 @@ You can do this using manual steps or by using the included script.
 
 <details>
  <summary><strong>Use the provided script to copy the theme</strong></summary>
+
 1. Copy this repository into the Drupal's `/themes/` directory.
 2. Rename this directory into the your themes name.
 3. Use the terminal to `cd` into the theme's directory.
