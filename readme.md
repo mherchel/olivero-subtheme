@@ -12,7 +12,7 @@ You can do this using manual steps or by using the included script.
 <details>
  <summary><strong>Manually copy theme</strong></summary>
 
-   ## Copy the theme directory.
+   ### Copy the theme directory.
 
    1. Copy the `/core/themes/olivero` directory into the `/themes/` directory.
    2. Rename the files in the new theme.
@@ -28,7 +28,7 @@ You can do this using manual steps or by using the included script.
       2. Search and replace `olivero` with `coco`.
 
 
-   ## Copy the CSS and JavaScript compilation scripts.
+   ### Copy the CSS and JavaScript compilation scripts.
    Copy all of the files this repository into the new theme. These scripts will enable you to make change in the source files and have them compile down to regular CSS and JS.
 
    The most important files are:
