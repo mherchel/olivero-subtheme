@@ -49,15 +49,17 @@ You can do this using manual steps or by using the included script.
  </details>
 
 ## Enable the new theme.
-You should now see the new `Coco` theme listed under `appearance > themes`.
+You should now see the new theme listed under `appearance > themes`.
 1. Set a theme other than Olivero to be the default theme.
 2. Uninstall the Olivero theme.
-3. Install `Coco` and set it to be the default.
+3. Install the new theme and set it to be the default.
 
 Enable it. It should look exactly like the default core Olivero theme.
 
 ## Install Node dependencies.
-First make sure you have [Node](https://nodejs.org/en/download/), and [Yarn](https://classic.yarnpkg.com/en/docs/install/) installed. Then run `yarn install` to install the dependencies.
+First make sure you have [Node](https://nodejs.org/en/download/), and [Yarn](https://classic.yarnpkg.com/en/docs/install/) installed.
+
+Then run `yarn install` to install the dependencies.
 
 ## Make a change to the CSS styles.
 Within the theme you'll notice both regular `*.css` files and also `*.pcss.css` files. The files that you want to modify are the `*.pcss.css` files. These PostCSS files will be made into browser-compatible CSS by running the compilation scripts.
