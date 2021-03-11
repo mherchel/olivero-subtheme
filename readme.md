@@ -10,7 +10,7 @@ Instead of sub-theming, we're going to copy the core theme into a new theme.
 You can do this using manual steps or by using the included script.
 
 <details>
- <summary><strong>Manually copy theme</strong></summary>
+ <summary><strong>Manually copy theme and rename files</strong></summary>
 
    ### Copy the theme directory.
 
@@ -41,6 +41,8 @@ You can do this using manual steps or by using the included script.
 
 <details>
  <summary><strong>Use the provided script to copy the theme</strong></summary>
+
+### Run the provided scripts from within the `/themes` directory.
 
 1. Copy this repository into the Drupal's `/themes/` directory.
 2. Rename this directory into the your themes name.
