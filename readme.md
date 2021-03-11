@@ -10,7 +10,7 @@ Instead of sub-theming, we're going to copy the core theme into a new theme.
 You can do this using manual steps or by using the included script.
 
 <details>
- <summary style="font-size: 24px">Manually copy theme</summary>
+ <summary>**Manually copy theme**</summary>
 
    ## Copy the theme directory.
 
@@ -40,7 +40,7 @@ You can do this using manual steps or by using the included script.
 </details>
 
 <details>
- <summary style="font-size: 24px">Use the provided script to copy the theme</summary>
+ <summary>**Use the provided script to copy the theme**</summary>
 1. Copy this repository into the Drupal's `/themes/` directory.
 2. Rename this directory into the your themes name.
 3. Use the terminal to `cd` into the theme's directory.
