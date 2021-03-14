@@ -12,8 +12,6 @@ You can do this using manual steps or by using the included script.
 <details>
  <summary><strong>Use the provided script to copy the theme</strong></summary>
 
-### Run the provided scripts from within the `/themes` directory.
-
 ### Run the build script.
 
 Note, this is  only tested on MacOS, and is heavily reliant on code from Stack Overflow. Contributions are welcome!
