@@ -56,17 +56,17 @@ Note, this is  only tested on MacOS, and is heavily reliant on code from Stack O
 
 </details>
 
-## Enable the new theme.
+### Enable the new theme.
 You should now see the new theme listed under `appearance > themes`. Install the new theme and set it to be the default.
 
 It should look exactly like the default core Olivero theme.
 
-## Install Node dependencies.
+### Install Node dependencies.
 First make sure you have [Node](https://nodejs.org/en/download/), and [Yarn](https://classic.yarnpkg.com/en/docs/install/) installed.
 
 Then run `yarn install` to install the dependencies.
 
-## Make a change to the CSS styles.
+### Make a change to the CSS styles.
 Within the theme you'll notice both regular `*.css` files and also `*.pcss.css` files. The files that you want to modify are the `*.pcss.css` files. These PostCSS files will be made into browser-compatible CSS by running the compilation scripts.
 
 1. Open up the `/css/base/variables.pcss.css`.
@@ -77,7 +77,7 @@ Note you can also watch CSS by running `yarn watch:css`.
 
 See the scripts section within the `package.json` file for more commands.
 
-## Make a change to the JavaScript.
+### Make a change to the JavaScript.
 Similar to CSS, there are two JavaScript files for each file:
 
 * `*.es6.js` - These are the files that you will modify. They are written using modern JavaScript.
@@ -85,7 +85,7 @@ Similar to CSS, there are two JavaScript files for each file:
 
 You compile changes to the JavaScript files by running `yarn watch:js` and `yarn build:js`.
 
-## How to remove IE11 (and Opera Mini support).
+### How to remove IE11 (and Opera Mini support).
 Internet Explorer 11 and Opera Mini do not support CSS Variables (aka CSS Custom properties). This results in making new features (such as dark mode) very hard to implement. To remove support for these browsers.
 
 1. Remove `"last 1 Explorer version",` from line 95 in `package.json`.
