@@ -10,6 +10,22 @@ Instead of sub-theming, we're going to copy the core theme into a new theme.
 You can do this using manual steps or by using the included script.
 
 <details>
+ <summary><strong>Use the provided script to copy the theme</strong></summary>
+
+### Run the provided scripts from within the `/themes` directory.
+
+### Run the build script.
+
+Note, this is  only tested on MacOS, and is heavily reliant on code from Stack Overflow. Contributions are welcome!
+
+1. Copy this repository into the Drupal's `/themes/` directory.
+2. Rename this directory into the your themes name.
+3. Use the terminal to `cd` into the theme's directory.
+4. run `sh ./build.sh` to start the process to generate the theme.
+5. Enter the name of the theme when prompted (example: `Mytheme`).
+ </details>
+
+<details>
  <summary><strong>Manually copy theme and rename files</strong></summary>
 
    ### Copy the theme directory.
@@ -26,6 +42,9 @@ You can do this using manual steps or by using the included script.
    3. Do a global search and replace for the name. When you search and replace, be case-sensitive
       1. Search and replace `Olivero` with `Coco`.
       2. Search and replace `olivero` with `coco`.
+   4. Within the `coco.info.yml` file, replace `experimental: true` with `core_version_requirement: ^9`.
+   5. Move all of the "block" config files (starting with "block") from `config/install` to `config/optional`.
+   6. Move the `core.date_format.coco_medium.info.yml` from `config/install` to `config/optional`.
 
 
    ### Copy the CSS and JavaScript compilation scripts.
@@ -38,18 +57,6 @@ You can do this using manual steps or by using the included script.
    * `scripts/` directory - this contains the CSS and JS compilation scripts.
 
 </details>
-
-<details>
- <summary><strong>Use the provided script to copy the theme</strong></summary>
-
-### Run the provided scripts from within the `/themes` directory.
-
-1. Copy this repository into the Drupal's `/themes/` directory.
-2. Rename this directory into the your themes name.
-3. Use the terminal to `cd` into the theme's directory.
-4. run `sh ./build.sh` to start the process to generate the theme.
-5. Enter the name of the theme when prompted (example: `Mytheme`).
- </details>
 
 ## Enable the new theme.
 You should now see the new theme listed under `appearance > themes`.
