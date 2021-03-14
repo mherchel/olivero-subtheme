@@ -57,12 +57,9 @@ Note, this is  only tested on MacOS, and is heavily reliant on code from Stack O
 </details>
 
 ## Enable the new theme.
-You should now see the new theme listed under `appearance > themes`.
-1. Set a theme other than Olivero to be the default theme.
-2. Uninstall the Olivero theme.
-3. Install the new theme and set it to be the default.
+You should now see the new theme listed under `appearance > themes`. Install the new theme and set it to be the default.
 
-Enable it. It should look exactly like the default core Olivero theme.
+It should look exactly like the default core Olivero theme.
 
 ## Install Node dependencies.
 First make sure you have [Node](https://nodejs.org/en/download/), and [Yarn](https://classic.yarnpkg.com/en/docs/install/) installed.
