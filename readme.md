@@ -11,7 +11,8 @@ You can do this using manual steps or by using the included script.
 
 <details>
  <summary><strong>Use the provided script to copy the theme</strong></summary>
-
+ <hr>
+ 
 ### Run the build script.
 
 Note, this is  only tested on MacOS, and is heavily reliant on code from Stack Overflow. Contributions are welcome!
@@ -21,11 +22,12 @@ Note, this is  only tested on MacOS, and is heavily reliant on code from Stack O
 3. Use the terminal to `cd` into the theme's directory.
 4. run `sh ./build.sh` to start the process to generate the theme.
 5. Enter the name of the theme when prompted (example: `Mytheme`).
- </details>
+ <hr>
+</details>
 
 <details>
  <summary><strong>Manually copy theme and rename files</strong></summary>
-
+ <hr>
    ### Copy the theme directory.
 
    1. Copy the `/core/themes/olivero` directory into the `/themes/` directory.
@@ -54,6 +56,7 @@ Note, this is  only tested on MacOS, and is heavily reliant on code from Stack O
    * `yarn.lock` file
    * `scripts/` directory - this contains the CSS and JS compilation scripts.
 
+ <hr>
 </details>
 
 ### Enable the new theme.
