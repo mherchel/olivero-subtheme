@@ -28,6 +28,7 @@ Note, this is  only tested on MacOS, and is heavily reliant on code from Stack O
 <details>
  <summary><strong>Manually copy theme and rename files</strong></summary>
  <hr>
+ 
    ### Copy the theme directory.
 
    1. Copy the `/core/themes/olivero` directory into the `/themes/` directory.
